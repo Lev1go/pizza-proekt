@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/4bc26a40c108ea1b744b6ad54b9affe0.webp" alt="logo" class="logo">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Товари</a></li>
+                <li><a href="#">Смаки</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <section class="header-section">
+            <img src="./img/Heart.png" alt="love" class="love">
+            <button data-modal-open class="button-modal">Відкрити</button>
+        </section>
+
+        <section class="header-section">
+            <img src="./img/shopping-cart 1.png" alt="cash" class="cash">
+            <button data-modal-open2 class="button-modal">Відкрити</button>
+        </section>
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button data-modal-close>✕</button>
+                <h2 class="title-modal">Вподобані</h2>
+                <p>У вас покищо немає товарів у кошику.</p>
+            </div>
+        </div>
+
+        <div class="backdrop is-hidden" data-modal2>
+            <div class="modal">
+                <button data-modal-close2>✕</button>
+                <h2 class="title-modal">Напрямки</h2>
+                <p>У вас покищо немає вподобаних товарів.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container-global">
+            <div>
+                <h1>Спробуй найкращу піццу</h1>
+                <p class="text-global--conatiner">Морозиво — це популярний заморожений десерт, який зазвичай
+                    виготовляється з молока, вершків, цукру та різноманітних смакових додатків.</p>
+                <button class="container-global--button">Дізнатись більше</button>
+            </div>
+            <img src="./img/stock-photo-pepperoni-pizza-slice-pepperoni-pizza-isolated-white-room-text-taking.jpg"
+                alt="pizza" class="photo-pizza">
+        </section>
+        \
+        /
+        \
+        /
+        \
+        /
+        \
+        /
+        \
+        /
+        \
+        /
+        <div class="top">
+            <span class="pill" data-open="m1">Особлива</span>
+            <span class="pill purple" data-open="m2">Пепероні</span>
+            <span class="pill brown" data-open="m3">Маргарита</span>
+            <span class="pill pink" data-open="m4">4 сезони</span>
+            <span class="pill green" data-open="m5">Мясна</span>
+            <span class="pill yellow" data-open="m6">4 сири</span>
+        </div>
+
+        <div class="main">
+
+            <div class="left">
+                <img class="pizza-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk5mAb4zI8ba3xmWjuAzCKcjqUN4YbIAW5bymz6_BLDt9HTPPcucg_h3AN7bp2cErF4Lhl--wizoMhOkGSWqcf4NwI7-pq3p1QVhTuUvh4&s=10">
+            </div>
+            <div class="right">
+                <h1>Ніжне<br>тісто🍕</h1>
+                <p>
+                    Відкрийте для себе унікальні комбінації смаків!<br>
+                    Від класичної маргарити до пікантної пепероні.
+                </p>
+                <a href="https://uk.wikipedia.org/wiki/Піца" target="_blank" class="btn yellow">
+                    Дізнайся більше
+                </a>
+                <button class="btn">Спробувати</button>
+            </div>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="close" data-close>✕</button>
+
+                <h2 id="title"></h2>
+                <p id="text"></p>
+            </div>
+        </div>
+        <section class="contact">
+            <div class="container contact-container">
+                <input type="email" placeholder="Введіть ваш email" class="contact-input">
+                <button class="contact-button" type="submit">Зв'язатися</button>
+            </div>
+            <img src="./img/contact-pizza.jpg" alt="pizza" class="contact-img">
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <img src="./img/footer-pizza.png" alt="pizza" class="footer-img">
+            <ul class="footer-list">
+                <li class="footer-item">Головна</li>
+                <li class="footer-item">Про нас</li>
+                <li class="footer-item">Контакти</li>
+            </ul>
+            <input type="email" placeholder="Підписатися на новини" class="footer-input">
+            <button class="footer-button">Підписатися</button>
+        </div>
+        <div class="footer-verify">
+            <p class="footer-text">© 2026 Rainbow Icecream Лендінг розроблено Сева,Даня,Міша і Максим</p>
+        </div>
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
